@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Arsenal');
+
+
+body {
+  font-family: 'Aresenal', serif;
+}
+
+/*Navigation*/
+
+.nav-wrapper {
+  background-color: #212121;
+}
+
+.brand-logo {
+  margin-left: 20px;
+}
+
+nav ul a.btn, nav ul a.btn-large, nav ul a.btn-large, nav ul a.btn-flat, nav ul a.btn-floating {
+  background-color: #fff;
+  color: #212121;
+}
+
+.btn:hover, .btn-large:hover {
+  background-color: #212121;
+  color: #fff;
+}
+
+/*Publications*/
+
+.card {
+  height: 400px;
+}
+
+.responsive-img {
+  margin-top: 15px;
+  max-height: 315px;
+}
+
+.pub-heading {
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.pub-link {
+  color: rgba(26,26,26,.7);
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+/*about*/
+
+.author-card {
+  max-width: 80%;
+  margin: auto;
+  margin-top: 70px;
+}
+
+.author-card h4 {
+  margin-top: 50px;
+}
+
+.author-card p {
+  font-size: 18px;
+}
+
+.author-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  margin: auto;
+}
