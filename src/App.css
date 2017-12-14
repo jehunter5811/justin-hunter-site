@@ -1,71 +1,83 @@
-@import url('https://fonts.googleapis.com/css?family=Arsenal');
-
+@import url('https://fonts.googleapis.com/css?family=Oswald|Raleway');
 
 body {
-  font-family: 'Aresenal', serif;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Oswald', sans-serif;
 }
 
 /*Navigation*/
 
-.nav-wrapper {
-  background-color: #212121;
+nav .logo {
+  font-size: 24px;
+  margin-left: 15px;
+  color: #000;
 }
 
-.brand-logo {
-  margin-left: 20px;
+.brand-logo, nav ul a {
+  color: #000!important;
 }
 
-nav ul a.btn, nav ul a.btn-large, nav ul a.btn-large, nav ul a.btn-flat, nav ul a.btn-floating {
-  background-color: #fff;
-  color: #212121;
+.links li a {
+  font-size: 16px;
 }
 
-.btn:hover, .btn-large:hover {
-  background-color: #212121;
-  color: #fff;
+.nav-content {
+  margin-top: 30px;
 }
 
-/*Publications*/
+/*Main page*/
 
-.card {
-  height: 400px;
+.tab:hover{
+  cursor: pointer;
 }
 
-.responsive-img {
-  margin-top: 15px;
-  max-height: 315px;
+.tabs .tab a, .tabs .tab a:hover, .tabs .tab a:active {
+  color: #000;
 }
 
-.pub-heading {
-  margin-top: 70px;
-  margin-bottom: 50px;
+.buttons {
+  margin-top: 45px;
 }
 
-.pub-link {
-  color: rgba(26,26,26,.7);
-  font-size: 18px;
-  text-decoration: underline;
+.buttons a {
+  margin: 15px;
 }
 
-/*about*/
-
-.author-card {
-  max-width: 80%;
+.fiction-main {
+  width: 90%;
   margin: auto;
-  margin-top: 70px;
-}
-
-.author-card h4 {
-  margin-top: 50px;
-}
-
-.author-card p {
-  font-size: 18px;
 }
 
 .author-photo {
-  width: 200px;
-  height: 200px;
-  border-radius: 100%;
+  width: 30%;
   margin: auto;
+  border-radius: 100%;
+  margin-top: 45px;
+}
+
+.twitter {
+  width: 20px;
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 550px) {
+  nav .logo {
+    font-size: 16px;
+  }
+
+  .buttons {
+    margin-top: 20px;
+  }
+
+  .buttons a {
+    margin: auto;
+  }
+
+  .links li a {
+    font-size: 10px;
+  }
 }
