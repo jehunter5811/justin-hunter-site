@@ -60,12 +60,12 @@ class Other extends Component {
       return (
         <a href={pubs.link} target="_blank">
         <div className="col s12 m6">
-          <div className="card hoverable small white darken-1">
+          <div className="card grey lighten-2 hoverable small">
             <div className="card-content white-text">
               <span className="card-title black-text">{pubs.title}</span>
               <p className="black-text">{pubs.blurb}</p>
             </div>
-            <div className="card-action">
+            <div className="white card-action">
               <a className="black-text">{pubs.publication}</a>
             </div>
           </div>

@@ -105,7 +105,7 @@ class Fiction extends Component {
         title: "Creosote",
         link: "http://ghostparachute.com/issue/october-2017-issue/creosote/",
         publication: "Ghost Parachute",
-        img: "http://ghostparachute.com/wp-content/uploads/2017/10/Creosote-Image-1000x1000.jpg"
+        img: "https://images.unsplash.com/photo-1459710447061-65cff55cf7c2?auto=format&fit=crop&w=1500&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"
       },
       {
         title: "Miracle Mile",

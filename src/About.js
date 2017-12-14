@@ -5,7 +5,7 @@ class About extends Component {
   render() {
     return (
       <div className="container center-align">
-        <img className="author-photo responsive-image" src="https://photos-3.dropbox.com/t/2/AACqfhj3tNXjJshbbuubmpTZYvxrSCSeK5PdqZWJpwqloA/12/425412701/jpeg/32x32/1/_/1/2/justin.jpg/EMy5pbUDGMkjIAIoAg/WYy6tmbDFigFMiKTaBwdutDEttuuFG_BJ3vpFhBlkv0?size=2048x1536&size_mode=3" alt="author-profile"/>
+        <img className="author-photo responsive-image" src="https://preview.ibb.co/fObix6/justin.jpg" alt="author-profile"/>
         <h3>About Justin</h3>
         <div className="left-align">
           <p>Justin Hunter grew up in Tucson, AZ, a place <a href="http://tucson.com/article_9b3b6c4f-2a07-57c7-bbbd-60ed524241a8.html" target="_blank"> famous for tuberculosis</a> and the University of Arizona. He spent most his life trying to escape, but now that he has, he finds himself drawn back in through his writing. He is married to a woman who not only accepts the crazy people living in his head, she actively engages them. His two young boys don't know what they're in for.</p>
