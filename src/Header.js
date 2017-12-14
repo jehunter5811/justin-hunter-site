@@ -7,7 +7,7 @@ class Header extends Component {
       <nav>
         <div className="nav-wrapper white">
         <div className="nav-links">
-          <a href="#" className="logo">Justin Hunter</a>
+          <Link to={"/"}><a href="#" className="logo">Justin Hunter</a></Link>
           <ul id="nav-mobile" className="links right">
             <li><Link to={"/"}>Writing</Link></li>
             <li><Link to={"/software"}>Software</Link></li>
